@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HR-табличка</title>
+</head>
+<body>
+   <h1>Вакансия Junior Frontend Developer</h1>
+   <div style="inline-block"><img src="https://i.imgur.com/gxgck9s.jpg" width="200px"></div>
+   <div style="inline-block">Имя: Карина<br><a href="https://github.com/rigdom/levelup">Ссылка на репозиторий в Github</a><br>Опыт работы: нет</div>
+</body>
+</html>
