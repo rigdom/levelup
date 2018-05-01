@@ -11,9 +11,9 @@
 <body>
         
    <h1>Вакансия Junior Frontend Developer</h1>
-   <div style="display:inline-block;vertical-align: top;font-family: Verdana;"><img src="https://i.imgur.com/gxgck9s.jpg" width="200px"></div>
-   <div style="display:inline-block">Имя: Карина<br><a href="https://github.com/rigdom/levelup">Ссылка на репозиторий в Github</a><br>Опыт работы: нет</div>
-   <p>Дата собеседования: <input type="date" name="calendar"></p>
+   <div><div style="display:inline-block;vertical-align: top;font-family: Verdana;"><img src="https://i.imgur.com/gxgck9s.jpg" width="200px"></div>
+   <div style="display:inline-block">Имя: Карина<br><a href="https://github.com/rigdom/levelup" target="_blank">Ссылка на репозиторий в Github</a><br>Опыт работы: нет</div></div>
+       <p>Дата собеседования: <input type="date" name="calendar"></p>
    <p>Уровень английского<br>
     <input name="english" type="radio" value="bad">Плохо
     <input name="english" type="radio" value="ok">Средне
@@ -30,7 +30,7 @@
             <li>Талант</li>
         </ul>
         </div>
-        <p><textarea style="margin-top:5px" rows="1" cols="40" name="choose">введите навык...</textarea><input type="submit" style="margin-left:10px; position:relative; margin-top:-5px" value="Добавить в список"></p>
+        <p><input placeholder="введите навык..." style="margin-top:5px" rows="1" cols="40"><input type="button" style="margin-left:10px; position:relative; margin-top:-5px" value="Добавить в список"></p>
    <div>Коммуникабельность: <select size="1">
     <option disabled>Выберите значение</option>
     <option value="Следует выпить">Следует выпить</option>
@@ -38,7 +38,7 @@
     <option selected value="То что надо">То что надо</option>
     <option value="Больно смотреть">Больно смотреть</option>
    </select></div>
-<div>Желаемая з/п: <textarea style="margin-left:10px;" rows="1" cols="40" name="choose">введите значение...</textarea></div>
+<div>Желаемая з/п: <input type="number" style="margin-left:10px;" name="choose" value="введите значение..."></div>
 <div>Подходит по критериям:<br>
     <input type="checkbox" name="1" value="Знание английского" checked> Знание английского
     <input type="checkbox" name="1" value="Оклад" checked> Оклад
@@ -47,7 +47,7 @@
 </div> 
 <div>Образование, курсы и т.п.<br>
     <table style="border:1px black dotted"><tbody>
-<tr><td style="padding:3px;border:1px black dotted">#</td><td style="padding:3px;border:1px black dotted">Сроки обучения</td><td style="padding:3px;border:1px black dotted">Наименование учебного заведения</td></tr>
+<tr><th style="padding:3px;border:1px black dotted">#</th><th style="padding:3px;border:1px black dotted">Сроки обучения</th><th style="padding:3px;border:1px black dotted">Наименование учебного заведения</th></tr>
 <tr><td style="padding:3px;border:1px black dotted">1</td><td style="padding:3px;border:1px black dotted">Когда-то</td><td style="padding:3px;border:1px black dotted">СПБГИКиТ, PR</td></tr>
 <tr><td style="padding:3px;border:1px black dotted">2</td><td style="padding:3px;border:1px black dotted">Долго</td><td style="padding:3px;border:1px black dotted">Дизайны для форумов</td></tr>
 <tr><td style="padding:3px;border:1px black dotted">3</td><td style="padding:3px;border:1px black dotted">Тоже долговато</td><td style="padding:3px;border:1px black dotted">Что-нибудь ещё</td></tr>
