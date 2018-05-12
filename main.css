@@ -1,0 +1,40 @@
+    body {
+background-color: transparent;
+    background-image: url(http://funkyimg.com/i/2taaa.jpg);
+    background-attachment: scroll;
+    background-repeat: repeat;}
+    .main {
+        margin: 0 200px;
+    border: #009688 3px dotted;
+    padding: 17px;
+    padding-top: 0px;
+    }
+    h1 {
+        padding: 0px;
+    font-family: courier new;
+    color: #009688;
+    text-align:center;
+    }
+    li {
+        list-style-type: ethiopic-halehame;
+        list-style-position: inside;
+    }
+    img.ams1  { width: 150px; height: 150px; transition-duration: 0.5s; -moz-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -o-transition-duration: 0.5s; filter: gray; -webkit-filter: sepia(80%);
+        -webkit-clip-path: polygon(150px 0px, 150px 150px,0px 150px, 0px 0px);
+    clip-path: polygon(150px 0px, 150px 150px,0px 150px, 0px 0px)} 
+img.ams1:hover { transition-duration: 0.5s; -moz-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -o-transition-duration: 0.5s; filter: none; -webkit-filter: sepia(0%);
+    -webkit-clip-path: polygon(83px 0px, 150px 90px,0px 120px, 0px 0px);
+    clip-path: polygon(83px 0px, 150px 90px,0px 120px, 0px 0px);
+    }
+    table.novostipost {background-repeat: repeat;background-image: url(http://funkyimg.com/i/2tmrX.jpg); border:3px #009688 dotted; font-family:century gothic;}
+    a:link { font-family: Century gothic; font-size: 14px; color: #352B35; font-weight:bold; }
+a:visited { font-family: Century gothic; font-size: 14px; color: #423842; font-weight:bold;}
+a:hover { font-family: Century gothic; font-size: 14px; color: #655265; font-weight:bold;}
+a:active { font-family: Century gothic; font-size: 14px; color: #655265; font-weight:bold;}
+td.tc {    background-image: url(http://funkyimg.com/i/2ti1q.png);
+    background-repeat: no-repeat;
+    background-position: 30% 9%;
+    padding:3px;border:1px #009688 dotted}
+    input {border-radius:8px;}
+    ul {padding:0px;}
+    .vertvert {margin:10px 0px 10px 0px}
