@@ -6,45 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>HR-табличка</title>
-    <style type="text/css">
-    body {
-background-color: transparent;
-    background-image: url(http://funkyimg.com/i/2taaa.jpg);
-    background-attachment: scroll;
-    background-repeat: repeat;}
-    .main {
-        margin: 0 200px;
-    border: #009688 3px dotted;
-    padding: 17px;
-    padding-top: 0px;
-    }
-    h1 {
-        padding: 0px;
-    font-family: courier new;
-    color: #009688;
-    text-align:center;
-    }
-    li {
-        list-style-type: ethiopic-halehame;
-        list-style-position: inside;
-    }
-    img.ams1  { width: 150px; height: 150px; transition-duration: 0.5s; -moz-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -o-transition-duration: 0.5s; filter: gray; -webkit-filter: sepia(80%);
-        -webkit-clip-path: polygon(150px 0px, 150px 150px,0px 150px, 0px 0px);
-    clip-path: polygon(150px 0px, 150px 150px,0px 150px, 0px 0px)} 
-img.ams1:hover { transition-duration: 0.5s; -moz-transition-duration: 0.5s; -webkit-transition-duration: 0.5s; -o-transition-duration: 0.5s; filter: none; -webkit-filter: sepia(0%);
-    -webkit-clip-path: polygon(83px 0px, 150px 90px,0px 120px, 0px 0px);
-    clip-path: polygon(83px 0px, 150px 90px,0px 120px, 0px 0px);
-    }
-    table.novostipost {background-repeat: repeat;background-image: url(http://funkyimg.com/i/2tmrX.jpg); border:3px #009688 dotted; font-family:century gothic;}
-    a:link { font-family: Century gothic; font-size: 14px; color: #352B35; font-weight:bold; }
-a:visited { font-family: Century gothic; font-size: 14px; color: #423842; font-weight:bold;}
-a:hover { font-family: Century gothic; font-size: 14px; color: #655265; font-weight:bold;}
-a:active { font-family: Century gothic; font-size: 14px; color: #655265; font-weight:bold;}
-td.tc {    background-image: url(http://funkyimg.com/i/2ti1q.png);
-    background-repeat: no-repeat;
-    background-position: 30% 9%;
-    padding:3px;border:1px #009688 dotted}
-    </style>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="main">   
@@ -72,21 +34,21 @@ td.tc {    background-image: url(http://funkyimg.com/i/2ti1q.png);
         </ul>
         </div>
         <p><input placeholder="введите навык..." style="margin-top:5px" rows="1" cols="40"><input type="button" style="margin-left:10px; position:relative; margin-top:-5px" value="Добавить в список"></p>
-   <div>Коммуникабельность: <select size="1">
+   <div class="vertvert">Коммуникабельность: <select size="1">
     <option disabled>Выберите значение</option>
     <option value="Следует выпить">Следует выпить</option>
     <option value="На уровне">На уровне</option>
     <option selected value="То что надо">То что надо</option>
     <option value="Больно смотреть">Больно смотреть</option>
    </select></div>
-<div>Желаемая з/п: <input type="number" style="margin-left:10px;" name="choose" value="введите значение..."></div>
-<div>Подходит по критериям:<br>
+<div class="vertvert">Желаемая з/п: <input type="number" style="margin-left:10px;" name="choose" value="введите значение..."></div>
+<div class="vertvert">Подходит по критериям:<br>
     <input type="checkbox" name="1" value="Знание английского" checked> Знание английского
     <input type="checkbox" name="1" value="Оклад" checked> Оклад
     <input type="checkbox" name="1" value="Навыки" checked> Навыки
     <input type="checkbox" name="1" value="Сразу видно, что свой человек" checked> Сразу видно, что свой человек
 </div> 
-<div>Образование, курсы и т.п.<br>
+<div class="vertvert">Образование, курсы и т.п.<br><br>
     <table class="novostipost"><tbody>
 <tr><th style="padding:3px;border:1px black dotted">#</th><th style="padding:3px;border:1px black dotted">Сроки обучения</th><th style="padding:3px;border:1px black dotted">Наименование учебного заведения</th></tr>
 <tr><td class="tc">1</td><td class="tc">Когда-то</td><td class="tc">СПБГИКиТ, PR</td></tr>
