@@ -38,3 +38,6 @@ td.tc {    background-image: url(http://funkyimg.com/i/2ti1q.png);
     input {border-radius:8px;}
     ul {padding:0px;}
     .vertvert {margin:10px 0px 10px 0px}
+.knopka {background: linear-gradient(90deg, rgba(0,150,136,1) 0%, rgba(203,187,187,1) 100%);
+    font-family: tahoma;
+}
