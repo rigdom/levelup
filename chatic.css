@@ -49,11 +49,11 @@ span {    height: 60px;
     text-align: center;
     font-family: 'Cinzel', serif;
     font-size: 30px;}
-.imechko {    display: flex;
+.imechko {
     font-family: Century Gothic;
     font-size: 28px;
 }
-.textik {    display: flex;
+.textik {
     width: auto;
     font-size: 12px;
     border: 1px #d2828a solid;
