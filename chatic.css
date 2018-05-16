@@ -72,7 +72,6 @@ span {    height: 60px;
 }
 .privet {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     width: 620px;
 }
