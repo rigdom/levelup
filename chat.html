@@ -6,121 +6,24 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Чат обсёра</title>
     <link href="https://fonts.googleapis.com/css?family=Cinzel:900" rel="stylesheet">
-    <style type="text/css">
-    .main {width:800px;
-    padding:5px;
-    height:600px;
-    background-color:#e4e3e0;
-    display: flex;
-}
-    .imena {display: flex;
-    width: 150px;
-    border-right: 3px black solid;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    align-items: center;}
-.foto {    background-color: #d2828a;
-    border-radius: 50px;
-    width: 60px;
-    border: 2px dotted #584f3c;
-    height: 60px;}
-.foto1 {    background-color: #a27479;
-    border-radius: 50px;
-    width: 60px;
-    border: 2px dotted #584f3c;
-    height: 60px;}
-.data {    height: 70px;
-    width: 70px;
-    font-size: 14px;
-    align-items: center;
-    display: flex;
-}
-.zaglavie {    height: 70px;
-    display: table-cell;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    background-color: #b0d8c5;
-    width: 800px;
-    padding: 5px;
-    text-align: center;
-    vertical-align: middle;
-    border-bottom: #d2828a 2px dotted;
-}
-.obser {width: 700px;
-    background-color: #fff9ee;
-    height: 600px;
-    margin-left: 6px;
-    display: flex;
-    flex-flow: row wrap;
-    overflow-x: hidden;
-    overflow-y: scroll;
-}
-span {    height: 60px;
-    width: 60px;
-    display: table-cell;
-    vertical-align: middle;
-    text-align: center;
-    font-family: 'Cinzel', serif;
-    font-size: 30px;}
-.imechko {height: 40px;
-    display: flex;
-    width: 600px;
-    font-family: Century Gothic;
-    justify-content: flex-start;
-    font-size: 28px;
-    align-items: center;
-    margin-top: 25px;
-}
-.textik {    height: 52px;
-    display: flex;
-    width: 626px;
-    font-size: 12px;
-    align-items: center;
-    margin-left: 5px;
-    border: 1px #d2828a solid;
-    font-family: Verdana;
-    padding: 2px;
-    background-color: #ddefe6;
-    text-align: justify;
-}
-::-webkit-scrollbar-thumb:vertical {
-    background-color:#d2828a;}
-
-::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
-    background-color:#70c19b;
-   
-}
-    </style>
+    <link rel="stylesheet" href="chatic.css">
 </head>
 <body>
-    
-        <p class="zaglavie">Discussion topic: What about Bill?<br>
+    <div class="x">X</div><p class="zaglavie">Discussion topic: What about Bill?<br>
         Created by <font color="#d2828a">Your_name</font> Created on: Some_date</p>
-        <div class="main"><div class="imena">
-        <div class="foto"><span>id</span></div><div class="data">17/05/2017<br>19:26:18</div>
-        <div class="foto1"><span>gj</span></div><div class="data">17/05/2017<br>19:26:18</div>
-        <div class="foto"><span>al</span></div><div class="data">17/05/2017<br>19:26:18</div>
-        <div class="foto"><span>ib</span></div><div class="data">17/05/2017<br>19:26:18</div>
-        <div class="foto"><span>el</span></div><div class="data">17/05/2017<br>19:26:18</div>
-    </div>
-        <div class="obser">
-        <div class="imechko">Ivy Dutch</div><div class="textik">Билла пора уволить</div>
-        <div class="imechko">Gillian Jacobson</div><div class="textik">Согласна</div>
-        <div class="imechko">Americana Land</div><div class="textik">Коллеги, думаю, что вы все ошибаетесь. Билл может принести пользу нашей компании - по крайней мере, он единственный, кто разобрался с новой кофеваркой.</div>
-        <div class="imechko">Ingvar Blom</div><div class="textik">Просто в отличие от некоторых Билл признаётся себе в том, что может чего-то не знать, и потому прочитал инструкцию.</div>
-        <div class="imechko">Erling Lund</div><div class="textik">..вы же понимаете, что это не причина его оставлять?</div>
-        <div class="imechko">Gillian Jacobson</div><div class="textik">Хорошо, кто пойдёт с этим к боссу? Какая причина? Кто скажет? Чур не я</div>
-        <div class="imechko">Erling Lund</div><div class="textik">И не я</div>
-        <div class="imechko">Americana Land</div><div class="textik">Коллеги, всё ещё уверена в том, что не мы обязаны решать подобные вопросы. Да, последний проект был завален - но это была не только его вина.</div>
-        <div class="imechko">Ivy Dutch</div><div class="textik">Кого ещё?</div>
-        <div class="imechko">Americana Land</div><div class="textik">Я не собираюсь называть имён, каждый сам знает, в чем он виноват.</div>
-        <div class="imechko">Lazy boye</div><div class="textik">А чат не о счетах?</div>
-        <div class="imechko">Bill Clinton</div><div class="textik">Ребята, вы же в курсе, что меня тоже в этот чат позвали?...</div>
-    </div>
-    
-
+        <div class="main">     
+        <div class="obser"><div class="eshe"><div class="foto"><span>id</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Ivy Dutch</div><div class="textik">Билла пора уволить</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color: #a27479"><span>gj</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Gillian Jacobson</div><div class="textik">Согласна</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color:#e29964"><span>al</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Americana Land</div><div class="textik">Коллеги, думаю, что вы все ошибаетесь. Билл может принести пользу нашей компании - по крайней мере, он единственный, кто разобрался с новой кофеваркой.</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color: #82b4d2"><span>ib</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Ingvar Blom</div><div class="textik">Просто в отличие от некоторых Билл признаётся себе в том, что может чего-то не знать, и потому прочитал инструкцию.</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto"><span>el</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Erling Lund</div><div class="textik">..вы же понимаете, что это не причина его оставлять?</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color: #a27479"><span>gj</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Gillian Jacobson</div><div class="textik">Хорошо, кто пойдёт с этим к боссу? Какая причина? Кто скажет? Чур не я</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto"><span>el</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Erling Lund</div><div class="textik">И не я</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color:#e29964"><span>al</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Americana Land</div><div class="textik">Коллеги, всё ещё уверена в том, что не мы обязаны решать подобные вопросы. Да, последний проект был завален - но это была не только его вина.</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto"><span>id</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Ivy Dutch</div><div class="textik">Кого ещё?</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto" style="background-color:#e29964"><span>al</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Americana Land</div><div class="textik">Я не собираюсь называть имён, каждый сам знает, в чем он виноват.</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto"><span>lb</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Lazy boye</div><div class="textik">А чат не о счетах?</div></div></div>
+        <div class="obser"><div class="eshe"><div class="foto"><span>bc</span></div><div class="data">17/05/2017<br>19:26:18</div></div><div class="privet"><div class="imechko">Bill Clinton</div><div class="textik">Ребята, вы же в курсе, что меня тоже в этот чат позвали?...</div></div></div>
     </div>
 </body>
 </html>
